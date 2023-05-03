@@ -1,0 +1,14 @@
+# 섹션 0. 소개
+- 참고
+    - [김정환블로그](https://jeonghwan-kim.github.io/)
+- 개발셋팅을 변경해야 하는 상황이 왔을 때
+    - 개발도구를 수정할 수 있는 지식이 있으면, 직접 수정해서 변경 가능
+    - '엔지니어'라면 개발도구를 자유자재로 사용하는것도 '능력'
+- 다루는 도구
+    - NPM / nodeJS
+        - NPM이 프로젝트를 관리하는 방식
+    - webpack
+    - Babel
+    - ESLint
+    - Prettier
+    - webpack (심화)
