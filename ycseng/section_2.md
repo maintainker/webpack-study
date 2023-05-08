@@ -111,3 +111,13 @@ script 태그로 실행할 떄 type='module'을 사용
 
 - 웹팩은 여러개 파일을 하나의 파일로 합쳐주는(bundler) 이다.
 - 하나의 시작점(entry point)으로부터 의존적인 모듈을 찾아서 결과물로 만들어 준다.
+
+### webpack-cli 명령어
+
+- cd ycseng/src
+- node_modules/.bin/webpack --mode development --entry ./app.js --output dist/main.js
+
+### webpack-config build 명령어
+
+- cd ycseng/src
+- npm run build
