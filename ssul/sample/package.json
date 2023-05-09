@@ -1,6 +1,20 @@
 {
+  "name": "study-webpack",
+  "version": "1.0.0",
+  "description": "## 진행 방식 - 범위: webpack 강의 -> next.js 셋팅 - 방식: 강의 듣고 각자 정리 후 질문 및 공유",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
   "devDependencies": {
     "webpack": "^5.82.0",
     "webpack-cli": "^5.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://bit.jobkorea.co.kr/scm/mfc/study-webpack.git"
+  },
+  "author": "",
+  "license": "ISC"
 }
