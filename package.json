@@ -4,6 +4,8 @@
   "description": "\"프론트엔드 개발 환경의 이해\" 강의 자료입니다.",
   "main": ".eslintrc.js",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.2",
+    "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^3.4.1",
     "file-loader": "^5.0.2",
@@ -27,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env/issues"
   },
-  "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme"
+  "homepage": "https://github.com/jeonghwan-kim/lecture-frontend-dev-env#readme",
+  "dependencies": {
+    "@babel/core": "^7.22.1",
+    "core-js": "2"
+  }
 }
