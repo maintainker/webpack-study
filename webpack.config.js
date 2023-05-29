@@ -18,6 +18,10 @@ module.exports = {
   },
   module: {
     rules: [
+      // {
+      //   test: /\.scss$/,
+      //   use: ["sass-loader"],
+      // },
       {
         test: /\.(scss|css)$/,
         use: [
@@ -25,6 +29,7 @@ module.exports = {
             ? MiniCssExtractPlugin.loader // 프로덕션 환경
             : "style-loader", // 개발 환경
           "css-loader",
+          "sass-loader",
         ],
       },
       {
